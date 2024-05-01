@@ -1,7 +1,7 @@
 <?php
 
 class Frog extends Animal {
-    function lompat() {
+    function Jump() {
         echo "hop hop";
     }
 };

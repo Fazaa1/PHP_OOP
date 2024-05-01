@@ -14,7 +14,7 @@ echo "Cold blooded: " . $sheep->cold_blooded . "<br>";
 include('Ape.php');
 require_once('Frog.php');
 
-$Kerakuat = new Ape("Kera Sakti"); echo "<br>";
+$sungokong  = new Ape("Kera Sakti"); echo "<br>";
 $kodok = new Frog("Buduk"); 
 
 
@@ -22,12 +22,12 @@ echo "Name: " . $kodok->name. "<br>";
 echo "Legs: " . $kodok->legs . "<br>";
 echo "Cold blooded: ". $kodok->cold_blooded .  "<br>";
 echo "Jump: " ;
-$kodok->lompat();
+$kodok->Jump();
 echo "<br>" . "<br>";    
 
 
-echo "Name: " . $Kerakuat->name . "<br>";
-echo "Legs: " . $Kerakuat->legs . "<br>";
-echo "Cold blooded: " . $Kerakuat->cold_blooded . "<br>";
+echo "Name: " . $sungokong ->name . "<br>";
+echo "Legs: " . $sungokong ->legs . "<br>";
+echo "Cold blooded: " . $sungokong ->cold_blooded . "<br>";
 echo "Yell: " ;
- $Kerakuat->yell(). "<br>";
+ $sungokong ->yell(). "<br>";
